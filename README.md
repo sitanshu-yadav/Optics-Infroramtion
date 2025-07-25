@@ -16,7 +16,6 @@ This script automates the retrieval and parsing of optical transceiver informati
 - [netmiko](https://pypi.org/project/netmiko/)
 - [pycryptodome](https://pypi.org/project/pycryptodome/)
 - OpenSSL (for password decryption)
-- pip install netmiko pycryptodome
 
 Install dependencies:
 ```sh
