@@ -25,7 +25,7 @@ def decrypt_password_openssl(enc_file, passphrase):
 #------------------------------------------------------------------------------
 def detect_device_type(hostname):
     name = hostname.lower()
-    if "csco" in name or name=='gw-dhub-core-01'or name=='gw-ndc-core-01':
+    if "csco" in name or name=='......'or name=='......':
         return "cisco_xr"
     elif "jnpr" in name or 'gw-' in name:
         return "juniper"
